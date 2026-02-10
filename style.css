@@ -227,7 +227,7 @@ h3 {
     padding-left: 30px;
 }
 
-.tea-traits li:before {
+.tea-traits li::before {
     content: "✓";
     position: absolute;
     left: 0;

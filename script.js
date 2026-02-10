@@ -188,12 +188,21 @@ function showResults() {
     // Find the tea type with the highest count
     let winningTea = 'black';
     let maxCount = 0;
+    let tiedTeas = [];
     
     for (const tea in tally) {
         if (tally[tea] > maxCount) {
             maxCount = tally[tea];
             winningTea = tea;
+            tiedTeas = [tea];
+        } else if (tally[tea] === maxCount) {
+            tiedTeas.push(tea);
         }
+    }
+    
+    // If there's a tie, select randomly among tied options
+    if (tiedTeas.length > 1) {
+        winningTea = tiedTeas[Math.floor(Math.random() * tiedTeas.length)];
     }
     
     // Display results
