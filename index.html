@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Tea Are You? - Personality Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <div class="card">
+                <h1>🍵 What Tea Are You?</h1>
+                <p class="subtitle">Discover your perfect tea match with our personality quiz!</p>
+                <p class="description">Answer 8 questions about your energy, habits, and flavor preferences to find out which tea best represents you.</p>
+                <button class="btn btn-primary" onclick="startQuiz()">Start Quiz</button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="card">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p class="question-counter">Question <span id="current-question">1</span> of 8</p>
+                <h2 id="question-text"></h2>
+                <div id="answers-container"></div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <div class="card">
+                <h1>Your Perfect Tea Match</h1>
+                <div class="result-content">
+                    <div class="tea-icon" id="tea-icon"></div>
+                    <h2 id="tea-type"></h2>
+                    <p id="tea-description"></p>
+                    <div class="tea-traits">
+                        <h3>Your Tea Traits:</h3>
+                        <ul id="tea-traits-list"></ul>
+                    </div>
+                </div>
+                <button class="btn btn-primary" onclick="restartQuiz()">Take Quiz Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
