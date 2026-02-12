@@ -77,9 +77,9 @@ const quizData = [
 // Tea Results Data
 const teaResults = {
     black: {
-        name: "Black Tea ☕",
+        name: "Lychee Black Tea ☕",
         icon: "☕",
-        description: "You're bold, energetic, and always ready to take on challenges! Like black tea, you have a strong presence and bring warmth and energy to every situation. You're the go-to person when things need to get done.",
+        description: "You're bold, energetic, and always ready to take on challenges! You have a strong presence and bring warmth and energy to every situation. You're the go-to person when things need to get done.",
         traits: [
             "High energy and driven",
             "Natural leader",
@@ -88,9 +88,9 @@ const teaResults = {
         ]
     },
     green: {
-        name: "Green Tea 🍃",
+        name: "Longjing (Dragon Well) Green Tea 🍃",
         icon: "🍃",
-        description: "You're balanced, mindful, and health-conscious. Like green tea, you bring clarity and freshness to your surroundings. You value harmony and prefer a thoughtful approach to life's challenges.",
+        description: "You're balanced, mindful, and health-conscious. You bring clarity and freshness to your surroundings. You value harmony and prefer a thoughtful approach to life's challenges.",
         traits: [
             "Balanced and centered",
             "Values wellness and mindfulness",
@@ -99,9 +99,9 @@ const teaResults = {
         ]
     },
     oolong: {
-        name: "Oolong Tea 🌸",
+        name: "Phoenix Dan Cong Oolong Tea 🌸",
         icon: "🌸",
-        description: "You're sophisticated, unique, and full of depth. Like oolong tea, you're a perfect blend of different qualities - neither too intense nor too mild. You appreciate complexity and nuance in life.",
+        description: "You're sophisticated, unique, and full of depth. You're a perfect blend of different qualities - neither too intense nor too mild. You appreciate complexity and nuance in life.",
         traits: [
             "Adaptable and versatile",
             "Appreciates life's subtleties",
@@ -110,9 +110,9 @@ const teaResults = {
         ]
     },
     herbal: {
-        name: "Herbal Tea 🌿",
+        name: "Lavender Lullaby Herbal Tea 🌿",
         icon: "🌿",
-        description: "You're calming, nurturing, and naturally soothing. Like herbal tea, you bring comfort and peace to those around you. You value tranquility and create a safe, warm atmosphere wherever you go.",
+        description: "You're calming, nurturing, and naturally soothing. You bring comfort and peace to those around you. You value tranquility and create a safe, warm atmosphere wherever you go.",
         traits: [
             "Calming presence",
             "Nurturing and supportive",
